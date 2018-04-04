@@ -1,0 +1,15 @@
+.idea/
+node_modules/
+*.iml
+webpack-assets.json
+webpack-stats.json
+npm-debug.log
+*.env
+*.log
+npm-debug*
+.vscode/
+stats.json
+.DS_Store
+deploy_mnemonic.key
+build/
+build_webpack/
