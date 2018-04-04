@@ -1,8 +1,7 @@
 
 # Moesif For Dapp Example
 
-Purpose of this repo is to illustrate an example how a DAPP can integrate Moesif
-for API analytics.
+Purpose of this repo is to illustrate an example how a DAPP built on web3js/ethereum can integrate [Moesif](https://www.moesif.com) for JSON-RPC API analytics and monitoring.
 
 ### Background on Dapps
 
@@ -21,8 +20,8 @@ Moesif is the perfect solution for giving you insight for the Dapp that you coul
 
 ## How we created this example
 
-This repo is based on the [Truffle Framework](http://truffleframework.com/), and one of the standard starting kit [Truffle React Box](http://truffleframework.com/boxes/react). Although the Moesif integration itself do not
-depend on react.
+This repo is based on the [Truffle Framework](http://truffleframework.com/), and one of the standard starting kits: [Truffle React Box](http://truffleframework.com/boxes/react). Although Moesif integration itself do not
+depend on React.
 
 We followed these steps to create this example:
 
