@@ -66,8 +66,23 @@ Now, you can type go to: http://localhost:3000/, and interact with the Dapp.
 As you interact with the Dapp, all the JSON-RPC calls will be captured in your
 Moesif account.
 
+### Note for Metamask or use another Network.
+
+First of all, please disable Metamask if you want this example to work out of the box.
+If you need to use meta mask, you have to do few things.
+
+- Decide on which network that you want your Metamask to connect to.
+- Take a look at `truffle-config.js`, and copy that over to `truffle.js`, and add the correct settings for the the network you plan to use.
+- Make sure you compile and migrate your contracts to the correct network you are using.
+- On the UI side, if you are using Metamask or something, make sure it is also connected to the same network.
+- Metamask intercepts every transaction and requires user to explicit first. Sometimes the popup prompt is hidden, so be sure click on the Metamask popup and accept the prompt.
+
 ### Summary
 
 For any Dapp build on top of Ethereum and JSON-RPC using web3.js, it is very simple
 to install Moesif API analytics and monitoring. The process is the same as for any normal browser based app.
 Moesif automatically detects they are JSON-RPC calls and apply same level of intelligent monitoring and deep insights that we already do for other APIs such as REST or GraphQl.
+
+### More info
+
+Please check the [tutorial blog post related to this repo](https://www.moesif.com/blog/blockchain/ethereum/Tutorial-for-building-Ethereum-Dapp-with-Integrated-Error-Monitoring/).

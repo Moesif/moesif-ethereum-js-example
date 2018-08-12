@@ -31,6 +31,13 @@ let getWeb3 = new Promise(function(resolve, reject) {
 
       console.log('No web3 instance injected, using Local web3.');
 
+      // optional for HTTPProviders, but if you want to set your own web3 that is
+      // different than HttpProvider.
+      // Please uncomment below.
+      // if (window.moesif) {
+      //   window.moesif.useWeb3(web3);
+      // }
+
       resolve(results)
     }
   })

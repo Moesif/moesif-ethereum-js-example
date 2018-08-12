@@ -31,7 +31,8 @@ class App extends Component {
       // Instantiate contract once web3 provided.
       this.instantiateContract()
     })
-    .catch(() => {
+    .catch((error) => {
+      console.log(error);
       console.log('Error finding web3.')
     })
   }
