@@ -1,7 +1,7 @@
 
 # Moesif For Dapp Example
 
-Purpose of this repo is to illustrate an example how a DAPP built on web3js/ethereum can integrate [Moesif](https://www.moesif.com) for JSON-RPC API analytics and monitoring.
+Purpose of this repo is to illustrate an example how a DAPP built on web3js/ethereum can integrate [Moesif](https://www.moesif.com) for Web3 monitoring and analytics.
 
 ### Background on Dapps
 
@@ -65,6 +65,14 @@ We followed these steps to create this example:
 Now, you can type go to: http://localhost:3000/, and interact with the Dapp.
 As you interact with the Dapp, all the JSON-RPC calls will be captured in your
 Moesif account.
+
+### Moesif Application Id
+Your Moesif Application Id can be found in the [_Moesif Portal_](https://www.moesif.com/).
+After signing up for a Moesif account, your Moesif Application Id will be displayed during the onboarding steps. 
+
+You can always find your Moesif Application Id at any time by logging 
+into the [_Moesif Portal_](https://www.moesif.com/), click on the top right menu,
+and then clicking _Installation_.
 
 ### Note for Metamask or use another Network.
 
