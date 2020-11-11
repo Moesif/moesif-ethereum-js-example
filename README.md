@@ -59,7 +59,7 @@ We followed these steps to create this example:
 - Install dependencies for this repo: `npm install`
 - Start the truffle development environment: `truffle develop`
 - Compile the smart contracts: type in `compile` in the truffle develop command line prompt.
-- Deploy the smart contracts: type in `migrate` in the truffle develop command line prompt.
+- Deploy the smart contracts: type in `migrate` in the truffle develop command line prompt.  (or type in `migrate --reset` if you want do migration before and what to refresh).
 - Start the Dapp: in another terminal, run `npm run start`.
 
 Now, you can type go to: http://localhost:3000/, and interact with the Dapp.
@@ -68,9 +68,9 @@ Moesif account.
 
 ### Moesif Application Id
 Your Moesif Application Id can be found in the [_Moesif Portal_](https://www.moesif.com/).
-After signing up for a Moesif account, your Moesif Application Id will be displayed during the onboarding steps. 
+After signing up for a Moesif account, your Moesif Application Id will be displayed during the onboarding steps.
 
-You can always find your Moesif Application Id at any time by logging 
+You can always find your Moesif Application Id at any time by logging
 into the [_Moesif Portal_](https://www.moesif.com/), click on the top right menu,
 and then clicking _Installation_.
 
